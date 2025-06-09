@@ -1,0 +1,30 @@
+name: 🪳 BUG REPORT
+description: You have found a bug on a .nbs file or you have found a duplicated file ?
+title: '🪳 NAME GOES HERE'
+labels:
+  - BUG OR DUPLICATED FILE
+assignees:
+  - alzhetv
+body:
+  - type: checkboxes
+    id: '0'
+    attributes:
+      label: Before posting an issue...
+      description: >-
+        We know : having issues can be common for many reasons. We may check if
+        you are following the best practices :
+      options:
+        - label: >-
+            I affirm that I have checked the other issues and that no existing
+            issue is similar to this one.
+          required: true
+  - type: textarea
+    id: '1'
+    attributes:
+      label: 'Description :'
+      description: A clear and concise description of the problem. Write the name of the file. If you really want to help us, maybe do a PULL REQUEST instead.
+      placeholder: >-
+        Please do not just write "it doesn't work". If you're here, it's because
+        it doesn't work.
+    validations:
+      required: true
