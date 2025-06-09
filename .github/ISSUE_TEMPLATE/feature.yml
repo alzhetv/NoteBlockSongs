@@ -1,0 +1,29 @@
+name: ➕ FEATURE OR SONG REQUEST
+description: You want to add something on the list?
+title: '➕ NAME GOES HERE'
+labels:
+  - FEATURE OR SONG REQUEST
+assignees:
+  - alzhetv
+body:
+  - type: checkboxes
+    id: '0'
+    attributes:
+      label: Before posting a feature request...
+      description: >-
+        We know : having issues can be common for many reasons. We may check if
+        you are following the best practices :
+      options:
+        - label: >-
+            I affirm that I have checked the other features requests, that no existing
+            feature requests is similar to this one and I affirm that song is not in this repository.
+          required: true
+  - type: textarea
+    id: '1'
+    attributes:
+      label: 'Description :'
+      description: You might create a PULL REQUEST if you already have the .nbs file.
+      placeholder: >-
+        Here you go, type what you want here.
+    validations:
+      required: true
