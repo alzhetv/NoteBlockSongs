@@ -87,6 +87,7 @@ The list might be outdated.
 </tr>
 </tbody>
 </table>
+
 ### Development
 Please contribute, add songs, find duplicates, upgrade songs!
 
